@@ -10,7 +10,7 @@ ICU tokenizer in sqlite on iOS.
 # Requirements
 
 gmake, ginstall, you can install these with [homebrew](https://docs.brew.sh/Installation) if you don't
-have them. First install homebrew by following the link above, then:
+have them. First install [homebrew](https://docs.brew.sh/Installation) by following the link, then:
 
     brew install make
     brew install coreutils
