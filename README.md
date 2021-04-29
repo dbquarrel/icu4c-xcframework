@@ -23,9 +23,10 @@ have them
 
 # Usage
 
-1. type 'make' in Terminal to build ICU.xcframework
-2. Drag and drop ICU.xcframework into your
-   Target > Frameworks, Libraries and Embedded Content
+1. Clone this repository.
+2. Enter your local directory in Terminal and type 'make', nothing more is needed.
+2. When the build is finished, Drag and drop ICU.xcframework into your
+   Target > Frameworks, Libraries and Embedded Content. 
 3. Build your project as normal in Xcode
 
 ....
