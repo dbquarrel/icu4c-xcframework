@@ -1,9 +1,9 @@
 # icu4c-xcframework
-Universal binary macOS, iOS, iOS Simulator, and mac Catalyst xcode framework constructor for the ICU libraries
+Universal binary macOS, iOS, iOS Simulator, and mac Catalyst xcode framework constructor for the ICU libraries.
 
 This will create an xcframework for the ICU project, containing
 universal builds for Mac, Catalyst, iOS and the iOS simulator
-on x86 and ARM64 architectures. Apple's version of ICU is not
+on Intel x86 and ARM64 (ARM / Apple Silicon A and M series) architectures. Apple's version of ICU is not
 complete and using this framework will allow you to use the 
 ICU tokenizer in sqlite on iOS.
 
@@ -42,4 +42,9 @@ to clean up do:
 # See also:
 
 ICU project: https://unicode-org.github.io/icu/
-Original inspirations for this framework: https://github.com/zhm/icu-ios and https://github.com/sunkehappy/icu-ios
+
+Original inspirations for this framework: 
+
+https://github.com/zhm/icu-ios 
+
+https://github.com/sunkehappy/icu-ios
