@@ -39,3 +39,7 @@ to clean up do:
 
     make deepclean (deletes build host, and icu source as well...)
 
+# See also:
+
+ICU project: https://unicode-org.github.io/icu/
+Original inspirations for this framework: https://github.com/zhm/icu-ios and https://github.com/sunkehappy/icu-ios
