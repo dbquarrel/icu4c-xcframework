@@ -9,10 +9,20 @@ ICU tokenizer in sqlite on iOS.
 
 # Requirements
 
-gmake, ginstall, you can install these with homebrew if you don't
-have them
+gmake, ginstall, you can install these with [homebrew](https://docs.brew.sh/Installation) if you don't
+have them. First install homebrew by following the link above, then:
 
-# What it does
+    brew install make
+    brew install coreutils
+    
+Apple's git doesn't come with git-lfs by default, and if you receive a complaint from git about this, you
+can install git-lfs via homebrew as well.
+
+    brew install git-lfs
+    
+And execute the suggested commands on installation.
+
+# What this makefile does
 
 1. clones a copy of ICU into the working directory
 2. builds ICU for the current machine
