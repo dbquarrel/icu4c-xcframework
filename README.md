@@ -41,13 +41,13 @@ And execute the suggested commands on installation.
 
 ....
  
-to clean up do:
+to clean up the build components but leave the icu source and the host build:
 
-    make clean (deletes component build stuff)
+    make clean 
 
--or-
+-or- to clean up everything except the makefile and the ICU.xcframework
 
-    make deepclean (deletes build host, and icu source as well...)
+    make deepclean
 
 # See also:
 
