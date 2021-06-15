@@ -34,7 +34,7 @@ And execute the suggested commands on installation.
 # Usage
 
 1. Clone this repository.
-2. Enter your local directory in Terminal and type 'make', nothing more is needed.
+2. Enter your local directory in Terminal and type 'gmake', nothing more is needed.
 2. When the build is finished, Drag and drop ICU.xcframework into your
    Target > Frameworks, Libraries and Embedded Content. 
 3. Build your project as normal in Xcode
@@ -43,11 +43,11 @@ And execute the suggested commands on installation.
  
 to clean up the build components but leave the icu source and the host build:
 
-    make clean 
+    gmake clean 
 
 -or- to clean up everything except the makefile and the ICU.xcframework
 
-    make deepclean
+    gmake deepclean
 
 # See also:
 
