@@ -29,7 +29,7 @@
 ##### usage
 ##############################
 
-# 1. type 'make' in Terminal to build ICU.xcframework
+# 1. type 'gmake' in Terminal to build ICU.xcframework
 # 2. Drag and drop ICU.xcframework into your
 #    Target > Frameworks, Libraries and Embedded Content
 # 3. Build your project as normal in Xcode
@@ -146,9 +146,9 @@ build-host: $(HOST_dir)
 
 $(HOST_dir):
 	mkdir -p $@ && cd $@ ; \
-	export OTHER_CONFIG=$(CONFIG_flags) ; \
-	export CFLAGS=$(OPT_cflags) ; \
-	export CXXFLAGS=-stdlib=libc++ -std=c++11 $(OPT_cflags) ; \
+	export OTHER_CONFIG="$(CONFIG_flags)" ; \
+	export CFLAGS="$(OPT_cflags)" ; \
+	export CXXFLAGS="-stdlib=libc++ -std=c++11 $(OPT_cflags)" ; \
 	$(ICU_configure) --prefix=$(ICU_destination) $${OTHER_CONFIG} ; \
 	$(MAKE_PARALLEL) ; \
 	$(MAKE_PARALLEL) install 
